@@ -9,14 +9,14 @@ class avion{
     
     private://atributos
     void volar();
-    public://métodos
+    public://mÃ©todos
     avion();//constructor
     float cielo, tierra, pista, codigo;
     void setcielo(float);
     void settierra(float);
     void setpista(float);
     void setcodigo(float);
-    //métodos getters
+    //mÃ©todos getters
     float getcielo();
     void gettierra();
     float getpista();
@@ -79,13 +79,13 @@ class hangar{
 
     private:
     void guardar();
-    public://métodos
+    public://mÃ©todos
     hangar();//constructor
     float ocup, disp, mos;
     void setocup(float);//ocupado
     void setdisp(float);//disponible
     void setmos(float);//Mostrar
-    //métodos getters
+    //mÃ©todos getters
     float getocup();
     float getdisp();
     float getmos();
@@ -131,14 +131,14 @@ class pista{
 
    private://atributos
    void despegue();
-   public://métodos
+   public://mÃ©todos
    pista();
    float despe, aterri, enpista, most;
    void setdespe(float);//despegue
    void setaterri(float);//aterrizaje
    void setenpista(float);//en la pista
    void setmost(float);//Mostrar
-   //métodos getters
+   //mÃ©todos getters
    float getdespe();
    float getaterri();
    float getenpista();
